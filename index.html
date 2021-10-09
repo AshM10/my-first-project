@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather App</title>
+</head>
+ <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <form id="input-location">
+            <input
+              type="text"
+              placeholder="Enter your location"
+              autofocus
+              id="search-input"
+            />
+            <input type="submit" value="Search" />
+            <input type="submit" value="Current" />
+          </form>
+          <h1 id="city">Search City</h1>
+          <h2 id="current-date">Today</h2>
+          <div class="row">
+            <div class="col-4">
+              <span id="current-temp">00</span>
+              <a href="#" id="celsius">°C</a> |
+              <a href="#" id="fahrenheit">°F</a>
+            </div>
+            <div class="col-4" id="weather-description">Sunny</div>
+          </div>
+          <img src="images/sunny.svg" class="sunny-image" />
+          <div class="info"></div>
+          <div class="feels-like">
+            Feels-like <span id="feels-like">00</span>%
+          </div>
+          <div class="humidity">Humidity <span id="humidity">00</span>%</div>
+          <div class="wind">Wind <span id="wind">00</span> km/h</div>
+          <div class="row">
+            <div class="col-2">
+              1900
+              <br />
+              🌤
+              <br />
+              91°
+            </div>
+            <div class="col-2">
+              2000
+              <br />
+              🌙
+              <br />
+              88°
+            </div>
+            <div class="col-2">
+              2100
+              <br />
+              🌙
+              <br />
+              84°
+            </div>
+            <div class="col-2">
+              2200
+              <br />
+              ✨
+              <br />
+              84°
+            </div>
+            <div class="col-2">
+              2300
+              <br />
+              ✨
+              <br />
+              82°
+            </div>
+            <div class="col-2">
+              2400
+              <br />
+              ✨
+              <br />
+              82°
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
