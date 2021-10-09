@@ -1,0 +1,27 @@
+body {
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+h1 {
+  color: orange;
+}
+
+#weather-description {
+  text-transform: capitalize;
+}
+
+.sunny-image {
+  width: 150px;
+  float: right;
+}
+
+.info {
+  margin: 20px;
+}
+
+.row {
+  margin: 20px;
+}
