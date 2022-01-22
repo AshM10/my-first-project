@@ -17,16 +17,16 @@
  
   <body>
     <div class="container">
-      <div class="card">
-        <div class="card-body">
-          <form id="input-location" class="mb-3">
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <form id="search-form" class="mb-3">
             <div class="row">
             <div class="col-9">
               <input
               type="search"
               placeholder="Enter your location"
               class="form-control"
-              id="search-input"
+              id="city-input"
               autocomplete="off"
             />
             </div>
@@ -58,20 +58,22 @@
         </div>
             <div class="col-6">
               <ul>
-          <li>Humidity: <span id="humidity"><span>%</li>
-          <li>Wind: <span id="wind"></span> m/h</li>
-          <div class="humidity">Humidity <span id="humidity">00</span>%</div>
-          <div class="wind">Wind <span id="wind">00</span> km/h</div>
+                <li>Humidity: <span id="humidity"><span>%</li>
+                <li>Wind: <span id="wind"></span> m/h</li>
+              </ul>
+            </div>
+          </div>
           <div class="weather-forecast" id="forecast"></div>
         </div>
+        <small>
+          <a
+           href="https://github.com/AshM10/my-first-project"
+           target="_blank">
+          Open-source code</a>
+          by Ash Moreno
+        </small>
       </div>
-      <p>
-        My First Project at
-        <a href="https://github.com/AshM10/my-first-project" target="_blank"
-          >GitHub</a
-        >
-      </p>
     </div>
     <script src="src/index.js"></script>
   </body>
-</html>
+  </html>
